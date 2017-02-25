@@ -1,0 +1,464 @@
+/*--------------- Fontes */
+
+@font-face {
+    font-family: 'open_sanscondensed_light';
+    src: url('../font/OpenSans-CondLight-webfont.eot');
+    src: url('../font/OpenSans-CondLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/OpenSans-CondLight-webfont.woff') format('woff'),
+         url('../font/OpenSans-CondLight-webfont.ttf') format('truetype'),
+         url('../font/OpenSans-CondLight-webfont.svg#open_sanscondensed_light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansCnLtIt';
+    src: url('../font/OpenSans-CondLightItalic-webfont.eot');
+    src: url('../font/OpenSans-CondLightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/OpenSans-CondLightItalic-webfont.woff') format('woff'),
+         url('../font/OpenSans-CondLightItalic-webfont.ttf') format('truetype'),
+         url('../font/OpenSans-CondLightItalic-webfont.svg#open_sansCnLtIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*--------------- Geral */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100%;
+
+	font-family: 'open_sanscondensed_light';
+}
+
+.alinha_geral {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.esq {
+	width: 50%;
+	float: left;
+}
+
+.esq_post {
+	width: 70%;
+	float: left;
+}
+
+.dir {
+	width: 50%;
+	float: right;
+}
+
+.dir_status {
+	width: 150px;
+	float: right;
+}
+
+.esq_liv {
+	width: 35%;
+	float: left;
+}
+
+.dir_liv {
+	width: 65%;
+	float: right;
+}
+
+.post_nov {
+	width: 500px;
+  	margin: 0 auto;
+}
+
+/*--------------- Topo */
+
+header#topo {
+	width: 960px;
+	min-width: 100%;
+	min-height: 70px;
+	background-color: rgb(119, 177, 169); 
+}
+
+nav ul {
+	margin-top: 15px;
+	display: block;	
+	float: right;
+}
+
+nav li {
+	display: inline-block;
+	list-style: none;
+	padding: 10px;
+	width: 80px;
+
+	border-left: 1px solid rgb(69, 26, 62);
+	font-size: 18px;
+}
+
+nav a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+nav img {
+	margin-top: -10px;
+  	margin-bottom: -6px;
+}
+
+/*--------------- Conteudo */
+
+#conteudo {
+	width: 960px;
+	min-height: auto; 
+	min-height: 100%; 
+	position: relative; 
+	background-color: rgba(255, 255, 255, .7); 
+}
+/*--------------- Quadro de Login */
+#quadro_login {
+	width: 500px;
+	min-height: 400px;
+	background-image: url(../img/livro_login.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+table#tab_log {
+	margin-top: 80px;
+}
+
+table#tab_log h2 {
+	font-weight: normal;
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	padding-bottom: 20px;
+}
+
+table#tab_log label {
+	color: rgb(255, 255, 255);
+	font-family: 'open_sansCnLtIt';
+	font-size: 18px;
+}
+
+table#tab_log button {
+	width: 70px;
+	padding: 7px;
+	float: right;
+	cursor: pointer;
+	background-image: url(../img/bto_roxo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: none;
+	color: rgb(255, 255, 255);
+}
+
+table#tab_log input {
+	padding: 2px;
+}
+
+table#tab_link a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+table#tab_link a:hover {
+	text-decoration: underline;
+}
+
+table#tab_link img {
+	width: 30px;
+	float: right;
+}
+
+table#tab_link {
+	margin-top: 80px;
+	margin-left: 15px;
+}
+
+table#tab_link h2 {
+	font-weight: normal;
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	padding-bottom: 15px;
+}
+
+table#tab_link label {
+	color: rgb(255, 255, 255);
+	font-family: 'open_sansCnLtIt';
+	font-size: 18px;
+}
+
+table#tab_link button {
+	width: 100px;
+	padding: 7px;
+	cursor: pointer;
+	background-image: url(../img/bto_roxo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: none;
+	color: rgb(255, 255, 255);
+	margin-left: 30px;
+}
+
+/*--------------- Conteudo */
+
+.novidades {
+	width: 100%;
+	min-height: 400px;
+	padding: 20px;
+}
+
+.novidades h2 {
+	color: rgb(69, 26, 62);
+	font-family: 'open_sansCnLtIt';
+	font-size: 30px;
+}
+
+.novidades table {
+	padding-bottom: 20px;
+}
+
+#slide {
+	margin-right: 40px;
+}
+
+.txt {
+	width: 350px;
+}
+
+.txt_1 {
+	text-align: justify;
+	padding-right: 30px;
+}
+
+.box_branco {
+	width: 100%;
+	min-height: 200px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, .7);
+}
+
+.box_branco table {
+	padding: 10px;
+}
+
+.box_branco table h3 {
+	color: rgb(69, 26, 62);
+	font-family: 'open_sansCnLtIt';
+}
+
+.box_branco table img {
+	float: right;
+}
+
+#padrao {
+	width: 100%;
+	min-height: 800px;
+	padding: 20px;
+}
+
+#padrao p {
+	text-align: justify; 
+}
+
+#padrao table {
+	padding-bottom: 20px;
+	float: right;
+}
+
+#padrao table h2 {
+	color: rgb(69, 26, 62);
+	font-family: 'open_sansCnLtIt';
+}
+
+#padrao_2 {
+	width: 100%;
+	min-height: auto;
+	padding: 20px;
+}
+
+#padrao_2 p {
+	text-align: justify; 
+}
+
+#padrao_2 table {
+	padding-bottom: 20px;
+}
+
+#padrao_2 table h2 {
+	color: rgb(69, 26, 62);
+	font-family: 'open_sansCnLtIt';
+}
+
+.pag {
+	width: 100%;
+	min-height: 70px;
+	clear: both;
+	bottom: 0;
+}
+
+.pag_num {
+	width: 30%;
+	display: block;
+	margin: 0 auto;
+}
+
+.txt_pad {
+	width: 95%;
+}
+
+.txt_pad img {
+	padding-bottom: 10px;
+}
+
+.box_branco_status {
+	width: 250px;
+	min-height: 220px;
+	float: right;
+	margin-right: 50px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, .7);
+}
+
+.box_branco_status table {
+	padding: 10px;
+}
+
+.box_branco_status table h3 {
+	color: rgb(69, 26, 62);
+	font-family: 'open_sansCnLtIt';
+}
+
+.box_branco_status table img {
+	float: right;
+}
+
+.aloca {
+	width: 90%;
+	min-height: auto;
+	min-height: 100px;
+	margin: 0 auto;
+}
+
+.aloca_gen {
+	width: 25%;
+	min-height: 150px;
+	float: left;
+	padding: 20px;
+}
+
+.aloca_gen h2 {
+	color: rgb(69, 26, 62);
+	font-family: 'open_sansCnLtIt';
+	border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.aloca_gen p {
+	padding-top: 10px;
+	text-align: justify;
+}
+
+.aloca_gen a {
+	text-decoration: none;
+}
+
+.aloca_liv {
+	width: 40%;
+	min-height: 320px;
+	float: left;
+	padding: 20px;
+}
+
+.aloca_liv p {
+	padding-top: 10px;
+	text-align: justify;
+}
+
+.sinopse {
+	width: 100%;
+	min-height: 50px;
+	clear: both;
+}
+
+.liv_pri {
+	color: rgb(69, 26, 62);
+	font-weight: bold;
+}
+#form label {
+	color: rgb(69, 26, 62);
+	font-weight: bold;
+}
+
+#form input {
+	padding: 4px;
+}
+/*--------------- Rodape */
+
+footer#rodape {
+	width: 960px;
+	min-width: 100%;
+	min-height: 40px;
+	position: fixed;   
+	bottom: 0;
+	background-color: rgb(119, 177, 169); 
+}
+
+footer#rodape p {
+	text-align: center;
+	margin-top: 10px;
+	color: rgb(255, 255, 255);
+}
+
+/********** PAGINAÇÃO ---------------*/
+
+ .numero{
+        text-decoration: none;
+        background: rgb(69, 26, 62);
+        text-align: center;
+        padding: 3px 0;
+        display: block;
+        margin: 0 2px;
+        float: left;
+        width: 20px;
+        color: #fff;
+    }
+    .numero:hover, .numativo, .controle:hover{
+        background: rgb(119, 199, 169);
+    }
+    .controle{
+        text-decoration: none;
+        background: rgb(69, 26, 62);
+        text-align: center;
+        padding: 3px 8px;
+        display: block;
+        margin: 0 3px;
+        float: left;
+        color: #fff;
+    }
+
+    .pag_liv {
+        min-height: 120px;
+        width: 100px;
+        padding: 10px;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, .7);
+        float: left;
+    }
